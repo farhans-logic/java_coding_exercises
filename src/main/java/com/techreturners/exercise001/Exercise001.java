@@ -28,7 +28,7 @@ public class Exercise001 {
 
     public int countLinuxUsers(List<User> users) {
         return (int) users.stream()
-                .filter(u -> u.getType().equals("linux"))
+                .filter(u -> u.getType().equals("Linux"))
                 .count();
     }
 }

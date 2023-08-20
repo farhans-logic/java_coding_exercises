@@ -6,7 +6,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-public class Exercise001Test {
+public class  Exercise001Test {
 
     @Test
     public void checkHello() {
